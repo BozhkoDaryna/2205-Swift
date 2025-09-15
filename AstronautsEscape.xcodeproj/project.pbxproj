@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0389CAAE76FC30592893CEFA /* Pods_AstronautsEscape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA45B65F10071C00FACC36D6 /* Pods_AstronautsEscape.framework */; };
+		724140932E77F43B000F0503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724140902E77F43B000F0503 /* Assets.xcassets */; };
+		724140942E77F43B000F0503 /* AstronautsEscapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140912E77F43B000F0503 /* AstronautsEscapeApp.swift */; };
+		7241409B2E77F4B5000F0503 /* AEHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140962E77F4B5000F0503 /* AEHomeWebView.swift */; };
+		7241409C2E77F4B5000F0503 /* AELaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724140982E77F4B5000F0503 /* AELaunchView.swift */; };
+		724140A12E77F4BC000F0503 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241409F2E77F4BC000F0503 /* ShapeStyle+Extensions.swift */; };
+		724140A22E77F4BC000F0503 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241409E2E77F4BC000F0503 /* Color+Extensions.swift */; };
+		724140A32E77F4BC000F0503 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241409D2E77F4BC000F0503 /* View+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D022E414BBB7D4946CFA214 /* Pods-AstronautsEscape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautsEscape.release.xcconfig"; path = "Target Support Files/Pods-AstronautsEscape/Pods-AstronautsEscape.release.xcconfig"; sourceTree = "<group>"; };
+		724140812E77F374000F0503 /* AstronautsEscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronautsEscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724140902E77F43B000F0503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724140912E77F43B000F0503 /* AstronautsEscapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsEscapeApp.swift; sourceTree = "<group>"; };
+		724140962E77F4B5000F0503 /* AEHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AEHomeWebView.swift; sourceTree = "<group>"; };
+		724140982E77F4B5000F0503 /* AELaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AELaunchView.swift; sourceTree = "<group>"; };
+		7241409D2E77F4BC000F0503 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		7241409E2E77F4BC000F0503 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		7241409F2E77F4BC000F0503 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		724140A42E77F56D000F0503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AA45B65F10071C00FACC36D6 /* Pods_AstronautsEscape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronautsEscape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7CAE9303B52810DAF2941A4 /* Pods-AstronautsEscape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautsEscape.debug.xcconfig"; path = "Target Support Files/Pods-AstronautsEscape/Pods-AstronautsEscape.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7241407E2E77F374000F0503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0389CAAE76FC30592893CEFA /* Pods_AstronautsEscape.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C25067FB63297DB85AA4F52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA45B65F10071C00FACC36D6 /* Pods_AstronautsEscape.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A35ADE2560BA8CFD1A0FE77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7CAE9303B52810DAF2941A4 /* Pods-AstronautsEscape.debug.xcconfig */,
+				0D022E414BBB7D4946CFA214 /* Pods-AstronautsEscape.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		724140782E77F374000F0503 = {
+			isa = PBXGroup;
+			children = (
+				724140922E77F43B000F0503 /* AstronautsEscape */,
+				724140822E77F374000F0503 /* Products */,
+				2A35ADE2560BA8CFD1A0FE77 /* Pods */,
+				0C25067FB63297DB85AA4F52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		724140822E77F374000F0503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724140812E77F374000F0503 /* AstronautsEscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724140922E77F43B000F0503 /* AstronautsEscape */ = {
+			isa = PBXGroup;
+			children = (
+				724140A42E77F56D000F0503 /* Info.plist */,
+				724140A02E77F4BC000F0503 /* Extensions */,
+				7241409A2E77F4B5000F0503 /* Screens */,
+				724140952E77F43E000F0503 /* App */,
+				724140902E77F43B000F0503 /* Assets.xcassets */,
+			);
+			path = AstronautsEscape;
+			sourceTree = "<group>";
+		};
+		724140952E77F43E000F0503 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				724140912E77F43B000F0503 /* AstronautsEscapeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		724140972E77F4B5000F0503 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				724140962E77F4B5000F0503 /* AEHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		724140992E77F4B5000F0503 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				724140982E77F4B5000F0503 /* AELaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		7241409A2E77F4B5000F0503 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				724140972E77F4B5000F0503 /* HomeWebScreen */,
+				724140992E77F4B5000F0503 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		724140A02E77F4BC000F0503 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7241409D2E77F4BC000F0503 /* View+Extensions.swift */,
+				7241409E2E77F4BC000F0503 /* Color+Extensions.swift */,
+				7241409F2E77F4BC000F0503 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724140802E77F374000F0503 /* AstronautsEscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7241408D2E77F376000F0503 /* Build configuration list for PBXNativeTarget "AstronautsEscape" */;
+			buildPhases = (
+				F53849045197CD6E5929FF70 /* [CP] Check Pods Manifest.lock */,
+				7241407D2E77F374000F0503 /* Sources */,
+				7241407E2E77F374000F0503 /* Frameworks */,
+				7241407F2E77F374000F0503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstronautsEscape;
+			productName = AstronautsEscape;
+			productReference = 724140812E77F374000F0503 /* AstronautsEscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		724140792E77F374000F0503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					724140802E77F374000F0503 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 7241407C2E77F374000F0503 /* Build configuration list for PBXProject "AstronautsEscape" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 724140782E77F374000F0503;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 724140822E77F374000F0503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724140802E77F374000F0503 /* AstronautsEscape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7241407F2E77F374000F0503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724140932E77F43B000F0503 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F53849045197CD6E5929FF70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstronautsEscape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7241407D2E77F374000F0503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724140A12E77F4BC000F0503 /* ShapeStyle+Extensions.swift in Sources */,
+				724140A22E77F4BC000F0503 /* Color+Extensions.swift in Sources */,
+				724140A32E77F4BC000F0503 /* View+Extensions.swift in Sources */,
+				724140942E77F43B000F0503 /* AstronautsEscapeApp.swift in Sources */,
+				7241409B2E77F4B5000F0503 /* AEHomeWebView.swift in Sources */,
+				7241409C2E77F4B5000F0503 /* AELaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7241408B2E77F376000F0503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7241408C2E77F376000F0503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7241408E2E77F376000F0503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CAE9303B52810DAF2941A4 /* Pods-AstronautsEscape.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstronautsEscape/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Astronauts escape";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozhkolabpuzzle.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		7241408F2E77F376000F0503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D022E414BBB7D4946CFA214 /* Pods-AstronautsEscape.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstronautsEscape/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Astronauts escape";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bozhkolabpuzzle.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7241407C2E77F374000F0503 /* Build configuration list for PBXProject "AstronautsEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7241408B2E77F376000F0503 /* Debug */,
+				7241408C2E77F376000F0503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7241408D2E77F376000F0503 /* Build configuration list for PBXNativeTarget "AstronautsEscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7241408E2E77F376000F0503 /* Debug */,
+				7241408F2E77F376000F0503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 724140792E77F374000F0503 /* Project object */;
+}
