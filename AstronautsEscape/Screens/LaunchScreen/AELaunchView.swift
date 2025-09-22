@@ -9,7 +9,7 @@ struct AELaunchView: View {
     
     @State private var showPrivacy = false
     @State private var showHome = false
-
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -50,11 +50,7 @@ struct AELaunchView: View {
         .hideNavigationBar()
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                if !firstOpenApp {
-                    showHome = true
-                } else {
-                    showPrivacy = true
-                }
+                if !firstOpenApp { showHome = true } else { showPrivacy = true }
             }
         }
     }

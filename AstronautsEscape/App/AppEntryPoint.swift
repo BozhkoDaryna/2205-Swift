@@ -3,13 +3,13 @@ import SwiftUI
 struct AppEntryPoint: View {
     @AppStorage("stringURL") var stringURL = ""
     @AppStorage("firstOpenApp") var firstOpenApp = true
-
+    
     @State private var selectedRoute: Route?
-
+    
     enum Route {
         case launch, privacy
     }
-
+    
     var body: some View {
         ZStack {
             Group {
@@ -25,16 +25,18 @@ struct AppEntryPoint: View {
             .transition(.opacity)
             .animation(.easeInOut(duration: 0.3), value: selectedRoute)
         }
-        .onAppear(perform: {
-            DispatchQueue.main.async {
-                if !stringURL.isEmpty {
-                    AppDelegate.orientationLock = [.portrait, .landscapeLeft, .landscapeRight]
-                    selectedRoute = .privacy
-                } else {
-                    AppDelegate.orientationLock = .portrait
-                    selectedRoute = .launch
+        .onAppear {
+            if !stringURL.isEmpty {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                    AppDelegate.lock([.portrait, .landscapeLeft, .landscapeRight])
                 }
+                selectedRoute = .privacy
+            } else {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                    AppDelegate.lock([.landscapeLeft, .landscapeRight])
+                }
+                selectedRoute = .launch
             }
-        })
+        }
     }
 }

@@ -69,12 +69,14 @@ struct PrivacyView: View {
         }
         .hideNavigationBar()
         .onAppear {
-            AppDelegate.orientationLock = [.portrait, .landscapeLeft, .landscapeRight]
-            
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                UIDevice.current.setValue(UIInterfaceOrientation.unknown.rawValue, forKey: "orientation")
-                UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
-                UIViewController.attemptRotationToDeviceOrientation()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                AppDelegate.lock([.portrait, .landscapeLeft, .landscapeRight], rotateTo: .portrait)
+            }
+        }
+
+        .onDisappear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                AppDelegate.lock([.landscapeLeft, .landscapeRight])
             }
         }
         .onDisappear {

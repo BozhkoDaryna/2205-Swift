@@ -3,35 +3,40 @@ import WebKit
 
 struct AEHomeWebView: View {
     private let urlString = "https://2205-web-gl.vercel.app/"
-
+    
     var body: some View {
         WebContainer(url: URL(string: urlString)!)
             .ignoresSafeArea(.all)
             .hideNavigationBar()
+            .onAppear {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.05) {
+                    AppDelegate.lock([.landscapeLeft, .landscapeRight], rotateTo: .landscapeRight)
+                }
+            }
     }
 }
 
 
 struct WebContainer: UIViewRepresentable {
     let url: URL
-
+    
     func makeUIView(context: Context) -> WKWebView {
         let config = WKWebViewConfiguration()
         let webView = WKWebView(frame: .zero, configuration: config)
-
+        
         webView.scrollView.contentInsetAdjustmentBehavior = .never
         webView.scrollView.contentInset = .zero
         webView.scrollView.scrollIndicatorInsets = .zero
-
+        
         webView.allowsBackForwardNavigationGestures = true
-
+        
         webView.isOpaque = false
         webView.backgroundColor = .clear
         webView.scrollView.backgroundColor = .clear
-
+        
         webView.load(URLRequest(url: url))
         return webView
     }
-
+    
     func updateUIView(_ webView: WKWebView, context: Context) {}
 }
