@@ -6,7 +6,7 @@ import WebKit
 final class WebViewCoordinator: NSObject, WKNavigationDelegate, WKScriptMessageHandler, WKUIDelegate {
     private var redirectCount = 0
     private var wasCatchDetected = false
-    private let baseDomain = "bigfishingbas.website"
+    private let baseDomain = "astronautsescape.live"
     private var hasHandledScore = false
     
     var parent: WebViewContainer

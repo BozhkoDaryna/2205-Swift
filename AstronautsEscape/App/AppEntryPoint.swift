@@ -17,7 +17,7 @@ struct AppEntryPoint: View {
                 case .privacy:
                     PrivacyView()
                 case .launch:
-                    MFLaunchView()
+                    AELaunchView()
                 case .none:
                     Color.clear
                 }

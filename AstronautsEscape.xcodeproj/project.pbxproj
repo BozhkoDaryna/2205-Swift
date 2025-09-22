@@ -15,6 +15,15 @@
 		724140A12E77F4BC000F0503 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241409F2E77F4BC000F0503 /* ShapeStyle+Extensions.swift */; };
 		724140A22E77F4BC000F0503 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241409E2E77F4BC000F0503 /* Color+Extensions.swift */; };
 		724140A32E77F4BC000F0503 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7241409D2E77F4BC000F0503 /* View+Extensions.swift */; };
+		724141B82E8170F5000F0503 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141B72E8170F5000F0503 /* TextScreen.swift */; };
+		724141BB2E8170FE000F0503 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141BA2E8170FE000F0503 /* AppEntryPoint.swift */; };
+		724141BC2E8170FE000F0503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141B92E8170FE000F0503 /* AppDelegate.swift */; };
+		724141C22E81714A000F0503 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141C02E81714A000F0503 /* PrivacyView.swift */; };
+		724141C92E817152000F0503 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141C42E817152000F0503 /* UserAgentBuilder.swift */; };
+		724141CA2E817152000F0503 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141C52E817152000F0503 /* WebViewContainer.swift */; };
+		724141CB2E817152000F0503 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141C72E817152000F0503 /* WebSheetViewController.swift */; };
+		724141CC2E817152000F0503 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724141C62E817152000F0503 /* WebViewCoordinator.swift */; };
+		724141CD2E817152000F0503 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 724141C32E817152000F0503 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		7241409E2E77F4BC000F0503 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		7241409F2E77F4BC000F0503 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 		724140A42E77F56D000F0503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		724141B72E8170F5000F0503 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		724141B92E8170FE000F0503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		724141BA2E8170FE000F0503 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		724141C02E81714A000F0503 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		724141C32E817152000F0503 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		724141C42E817152000F0503 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		724141C52E817152000F0503 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		724141C62E817152000F0503 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		724141C72E817152000F0503 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
 		AA45B65F10071C00FACC36D6 /* Pods_AstronautsEscape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronautsEscape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CAE9303B52810DAF2941A4 /* Pods-AstronautsEscape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautsEscape.debug.xcconfig"; path = "Target Support Files/Pods-AstronautsEscape/Pods-AstronautsEscape.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +112,8 @@
 		724140952E77F43E000F0503 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				724141B92E8170FE000F0503 /* AppDelegate.swift */,
+				724141BA2E8170FE000F0503 /* AppEntryPoint.swift */,
 				724140912E77F43B000F0503 /* AstronautsEscapeApp.swift */,
 			);
 			path = App;
@@ -118,6 +138,8 @@
 		7241409A2E77F4B5000F0503 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				724141C82E817152000F0503 /* Web */,
+				724141C12E81714A000F0503 /* PrivacyScreen */,
 				724140972E77F4B5000F0503 /* HomeWebScreen */,
 				724140992E77F4B5000F0503 /* LaunchScreen */,
 			);
@@ -127,11 +149,32 @@
 		724140A02E77F4BC000F0503 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				724141B72E8170F5000F0503 /* TextScreen.swift */,
 				7241409D2E77F4BC000F0503 /* View+Extensions.swift */,
 				7241409E2E77F4BC000F0503 /* Color+Extensions.swift */,
 				7241409F2E77F4BC000F0503 /* ShapeStyle+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		724141C12E81714A000F0503 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				724141C02E81714A000F0503 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		724141C82E817152000F0503 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				724141C32E817152000F0503 /* index.html */,
+				724141C42E817152000F0503 /* UserAgentBuilder.swift */,
+				724141C52E817152000F0503 /* WebViewContainer.swift */,
+				724141C62E817152000F0503 /* WebViewCoordinator.swift */,
+				724141C72E817152000F0503 /* WebSheetViewController.swift */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				724140932E77F43B000F0503 /* Assets.xcassets in Resources */,
+				724141CD2E817152000F0503 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,11 +275,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				724140A12E77F4BC000F0503 /* ShapeStyle+Extensions.swift in Sources */,
+				724141B82E8170F5000F0503 /* TextScreen.swift in Sources */,
 				724140A22E77F4BC000F0503 /* Color+Extensions.swift in Sources */,
+				724141BB2E8170FE000F0503 /* AppEntryPoint.swift in Sources */,
+				724141BC2E8170FE000F0503 /* AppDelegate.swift in Sources */,
 				724140A32E77F4BC000F0503 /* View+Extensions.swift in Sources */,
 				724140942E77F43B000F0503 /* AstronautsEscapeApp.swift in Sources */,
 				7241409B2E77F4B5000F0503 /* AEHomeWebView.swift in Sources */,
 				7241409C2E77F4B5000F0503 /* AELaunchView.swift in Sources */,
+				724141C22E81714A000F0503 /* PrivacyView.swift in Sources */,
+				724141C92E817152000F0503 /* UserAgentBuilder.swift in Sources */,
+				724141CA2E817152000F0503 /* WebViewContainer.swift in Sources */,
+				724141CB2E817152000F0503 /* WebSheetViewController.swift in Sources */,
+				724141CC2E817152000F0503 /* WebViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

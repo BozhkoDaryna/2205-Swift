@@ -14,70 +14,66 @@ enum TypeScreen {
         switch self {
         case .policy:
                 """
-                This privacy policy applies to the Master Fishing Book app (hereby referred to as "Application") for mobile devices that was created by Sara Michell (hereby referred to as "Service Provider") as an Open Source service. This service is intended for use "AS IS".
+                At Astronauts Escape, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of information we collect, how it is used, and the measures we take to safeguard your data. By downloading and using Astronauts Escape, you agree to the practices described in this policy.
 
-                Information Collection and Use
+                1. Information We Collect
+                We collect different types of data to improve your experience and provide the best service possible while you play Astronauts Escape.
 
-                The Application collects information when you download and use it. This information may include information such as
+                a) Personal Information
+                We do not require personal information to play the game. However, if you choose to create an account, contact us for support, or participate in certain in-game features, you may provide personal information such as your name, email address, or other contact details.
 
-                Your device's Internet Protocol address (e.g. IP address)
-                The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-                The time spent on the Application
-                The operating system you use on your mobile device
-                 
-                The Application does not gather precise information about the location of your mobile device.
+                b) Usage Data
+                We collect information about your usage of the app, including:
 
-                The Application collects your device's location, which helps the Service Provider determine your approximate geographical location and make use of in below ways:
+                Game Progress: Levels completed, scores, achievements, and session durations.
 
-                Geolocation Services: The Service Provider utilizes location data to provide features such as personalized content, relevant recommendations, and location-based services.
-                Analytics and Improvements: Aggregated and anonymized location data helps the Service Provider to analyze user behavior, identify trends, and improve the overall performance and functionality of the Application.
-                Third-Party Services: Periodically, the Service Provider may transmit anonymized location data to external services. These services assist them in enhancing the Application and optimizing their offerings.
-                
-                The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
-                
-                For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+                Device Information: Device type, operating system, language settings, and unique device identifiers (e.g., IDFA).
 
-                Third Party Access
+                App Interactions: Frequency of use, in-app actions, and engagement with advertisements.
 
-                Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+                c) Cookies and Tracking Technologies
+                We use cookies, web beacons, and other tracking technologies to improve your experience, analyze app performance, and serve personalized advertisements.
 
-                The Service Provider may disclose User Provided and Automatically Collected Information:
+                2. How We Use Your Data
+                We use the information we collect for the following purposes:
 
-                as required by law, such as to comply with a subpoena, or similar legal process;
-                when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-                with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
-                 
-                Opt-Out Rights
+                Improve Gameplay: To optimize your experience and troubleshoot issues.
 
-                You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+                Customer Support: To respond to inquiries and assist with any issues you encounter.
 
-                Data Retention Policy
+                Advertising: To display personalized advertisements based on your interests and app usage.
 
-                The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at anastasiadorogan14@gmail.com and they will respond in a reasonable time.
+                Analytics: To track performance metrics, monitor app usage, and make improvements.
 
-                Children
+                3. Sharing and Disclosure of Information
+                We do not sell or rent your personal information. However, we may share your data in the following circumstances:
 
-                The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+                Service Providers: We may share data with third-party vendors that help us operate the app, such as advertising networks or analytics companies.
 
-                The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider (anastasiadorogan14@gmail.com) so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+                Legal Compliance: We may disclose information if required by law or to protect the rights, property, or safety of Astronauts Escape and its users.
 
-                Security
+                4. Data Retention and Security
+                We retain your data only for as long as necessary to provide the services or as required by law. We implement reasonable security measures to protect your data, but no data transmission method over the Internet can be guaranteed to be 100% secure.
 
-                The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+                5. Your Rights and Choices
+                You have the following rights:
 
-                Changes
+                Access and Update Your Data: You can request to view, update, or delete your personal data by contacting us at support@astronautsescape.com.
 
-                This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+                Opt-out of Personalized Ads: You can opt-out of personalized advertising by adjusting your device settings (Apple Settings → Privacy → Advertising).
 
-                This privacy policy is effective as of 2025-08-07
+                Delete Your Account: If you wish to delete your data or account, you can contact us for assistance.
 
-                Your Consent
+                6. Children's Privacy
+                Astronauts Escape is not intended for children under the age of 13. We do not knowingly collect personal data from children. If we become aware of such data, we will delete it immediately.
 
-                By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+                7. Changes to This Privacy Policy
+                We may update this Privacy Policy from time to time. If we make significant changes, we will notify users through in-app notifications or other communication channels. The "Last Updated" date at the top of this policy reflects when changes were made.
 
-                Contact Us
+                8. Contact Us
+                If you have any questions or concerns regarding this Privacy Policy, please contact us at:
 
-                If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at anastasiadorogan14@gmail.com.
+                Email: support@astronautsescape.com
                 """
         }
     }

@@ -44,7 +44,7 @@ struct PrivacyView: View {
             }
             
             NavigationLink(
-                destination: MFHomeWebView(),
+                destination: AEHomeWebView(),
                 isActive: $showHome
             ) {
                 EmptyView()
